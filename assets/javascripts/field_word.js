@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	console.log('field_word');
 
-	var cf_id = 49;
+	var cf_id = 50;
 	
 
 	if ($('#issue_custom_field_values_'+cf_id).length > 0) {
