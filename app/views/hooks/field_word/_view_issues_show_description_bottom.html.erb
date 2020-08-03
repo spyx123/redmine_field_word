@@ -1,0 +1,10 @@
+<% content_for :header_tags do %>
+
+<style>
+	.splitcontentleft > .cf_49  {display: none;}
+	.splitcontentright > .cf_49 {display: none;}
+</style>
+
+<%= javascript_include_tag 'ckeditor/ckeditor', :plugin => 'redmine_field_word' %>
+<%= javascript_include_tag 'field_word', :plugin => 'redmine_field_word' %>
+<% end %>
